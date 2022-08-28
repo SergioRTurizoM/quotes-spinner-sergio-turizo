@@ -1,0 +1,143 @@
+#root {
+
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+button {
+  display: flex;
+  position: sticky;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-left: 96%;
+}
+
+.Quote {
+  text-align: justify;
+  font-size: 1.3rem;
+}
+
+.Author {
+  text-align: right;
+  font-size: 1.1rem;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: space-between;
+  background-color: white;
+  width: 50rem;
+  height: 16rem;
+  border-radius: 8px;
+  z-index: -1;
+  padding: 3rem;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  background-color: white;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 8px;
+  z-index: -1;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.ContainerBtn {
+  border-radius: 50%;
+}
+
+
+
+
+@media (max-width: 1000px) {
+  .Container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 15rem;
+    height: fit-content;
+    border-radius: 8px;
+    z-index: -1;
+    padding: 3rem;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+  
+  }
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 8px;
+    z-index: -1;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  button {
+    display: flex;
+    position: sticky;
+    margin-left: 86%;
+    border-radius: 50%;
+
+  }
+
+  .ContainerBtn {
+    border-radius: 50%;
+  }
+}
+
+
+@media (max-width: 440px) {
+  .Container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 10rem;
+    height: fit-content;
+    border-radius: 8px;
+    z-index: -1;
+    padding: 3rem;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+  
+  }
+
+  button {
+    display: flex;
+    position: sticky;
+
+    margin-left: 86%;
+    border-radius: 50%;
+  }
+
+  .ContainerBtn {
+    border-radius: 50%;
+  }
+}
+
